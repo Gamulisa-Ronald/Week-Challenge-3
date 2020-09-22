@@ -1,0 +1,225 @@
+body {
+    background-color: white;
+}
+
+.main_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+
+
+.image_container {
+    margin-right: 0px;
+    margin-left: 220px;
+    order: -1;
+    
+}
+
+.image_container img {
+    height: 650px;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.content {
+    text-align: center;
+    box-shadow: 0 0 2px 1px gray;
+    padding: 0 5px 5px 5px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.content #first_p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content h3 {
+    color: black;
+    font-family: gabriola;
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+
+.content #log_in_btn{
+    background-color: blue;
+    border: none;
+    padding: 8px 75px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: cursive;
+
+}
+
+
+form p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input {
+    margin-top: 10px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-align: left;
+    padding: 6px 39px;
+    font-family: cursive;
+}
+
+form #sign_up_btn {
+    background-color: blue;
+    border: none;
+    padding: 8px 114px;
+    margin-top: 15px;
+    color: white;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.log_in p {
+    box-shadow: 0 0 2px 1px gray;
+    padding: 16px 100px;
+    margin-left: 30px;
+    font-family: cursive;
+}
+
+
+.content #line1,#line2 {
+    color: gray;
+    
+}
+
+@media screen and (max-device-width: 320px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main_section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .content {
+        font-size: 2px;
+        padding: 0 1px 1px 1px;
+        margin: 10px 510px 10px 2px;
+        letter-spacing: 0;
+    }
+
+    .image_container {
+        margin-left: 0;
+    }
+    .image_container img {
+        min-height: 50px;
+        min-width: 20px;
+        margin-top: 100px;
+
+    }
+    .log_in p {
+        padding: 6px 15px;
+        margin: 10px 510px 10px 2px;
+        font-size: 10px;
+        letter-spacing: 0;
+    }
+
+    .content h3 {
+        color: black;
+        font-size: 15px;
+        margin: 0 0 0 0;
+    }
+    
+    .content #log_in_btn{
+        border: none;
+        padding: 6px 38px;
+    
+    }
+    form input {
+        margin-top: 3px;
+        border-radius: 2px;
+        padding: 6px 16px;
+        font-size: 10px;
+    }
+    form #sign_up_btn {
+        border: none;
+        padding: 3px 50px;
+        margin-top: 7px;
+        color: white;
+        border-radius: 2px;
+    }
+    
+    
+
+}
+
+@media screen and (max-device-width: 768px) {
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main_section {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .content {
+        font-size: 6px;
+        padding: 0 1px 1px 1px;
+        margin: 10px 510px 10px 2px;
+        letter-spacing: 0;
+    }
+
+    .image_container {
+        margin-left: 0;
+    }
+    .image_container img {
+        min-height: 50px;
+        min-width: 20px;
+        margin-top: 100px;
+
+    }
+    .log_in p {
+        padding: 6px 15px;
+        margin: 10px 510px 10px 2px;
+        font-size: 2px;
+        letter-spacing: 0;
+    }
+    .get_apps p {
+        text-align: center;
+        margin: 10px  560px 10px 15px;
+    }
+    .content h3 {
+        color: black;
+        font-family: gabriola;
+        font-size: 15px;
+        margin: 0 0 0 0;
+    }
+    
+    .content #log_in_btn{
+        background-color: blue;
+        border: none;
+        padding: 4px 45px;
+        color: white;
+        border: none;
+        border-radius: 2px;
+        font-family: cursive;
+    
+    }
+    form input {
+        margin-top: 8px;
+        border: 1px solid grey;
+        border-radius: 2px;
+        text-align: left;
+        padding: 6px 8px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+    form #sign_up_btn {
+        background-color: blue;
+        border: none;
+        padding: 6px 50px;
+        margin-top: 7px;
+        color: white;
+        border-radius: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
